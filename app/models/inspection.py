@@ -8,7 +8,7 @@ class StatusEnum(str, enum.Enum):
     NG = "NG"
 
 class Inspection(Base):
-    __tablename__ = "inspection"
+    __tablename__ = "inspections"
 
     id = Column(Integer, primary_key=True, index=True)
     inspection_id = Column(String(50), unique=True, index=True, nullable=False)
