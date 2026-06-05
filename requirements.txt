@@ -1,0 +1,9 @@
+hx711 @ git+https://github.com/tatobari/hx711py.git
+yolov5 @ git+https://github.com/ultralytics/yolov5.git
+
+opencv-python
+torch
+torchvision
+RPi.GPIO
+paho-mqtt
+luma.oled
