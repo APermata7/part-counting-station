@@ -9,7 +9,7 @@ class StatusEnum(str, Enum):
 class InspectionBase(BaseModel):
     inspection_id: str
     part_id: int
-    operator_username: str
+    user: str
     qty_label: int
     n_cv: int
     n_weight: int
