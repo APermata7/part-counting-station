@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-dotenv
+ultralytics
+opencv-python
+numpy
+python-multipart
+cryptography
+paho-mqtt
