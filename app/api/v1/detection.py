@@ -14,7 +14,7 @@ router = APIRouter(prefix="/detection", tags=["Detection"])
 @router.post("/inspect", response_model=DetectionResponse)
 async def inspect_part(
     part_id: int = Form(...),
-    operator_username: str = Form(...),
+    user: str = Form(...),
     n_cv: int = Form(...),
     weight_gram: float = Form(...),
     db: Session = Depends(get_db)
@@ -32,7 +32,7 @@ async def inspect_part(
     new_inspection = Inspection(
         inspection_id=inspection_id,
         part_id=part.id,
-        operator_username=operator_username,
+        user=user,
         qty_label=part.target_qty,
         n_cv=n_cv,
         n_weight=n_weight,
