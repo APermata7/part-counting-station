@@ -8,6 +8,33 @@ Sistem dirancang untuk mengurangi human error, mempercepat proses inspeksi, mend
 
 ---
 
+## Latar Belakang
+
+Pada proses manufaktur, inspeksi kuantitas part masih sering dilakukan secara manual. Metode ini memiliki beberapa kelemahan:
+
+* Rentan terhadap human error.
+* Membutuhkan waktu inspeksi yang lama.
+* Sulit melakukan audit dan traceability.
+* Tidak tersedia monitoring secara real-time.
+* Berpotensi merusak kemasan saat proses pengecekan.
+
+Part Counting Station dikembangkan untuk mengatasi permasalahan tersebut melalui pendekatan otomatis berbasis Computer Vision dan Sensor Fusion.
+
+---
+
+## Gambar Sistem
+
+### Dashboard Monitoring KPI
+
+![Dashboard Part Counting Station](https://drive.google.com/uc?export=view&id=1XLAQpQVraPZclW2MkgNAsjzll93XrNpZ)
+
+
+### Produk Akhir
+
+![Produk Akhir Part Counting Station](https://drive.google.com/uc?export=view&id=1ukeZ2dkpgETYAb1fUlEZITi6W86MSN3E)
+
+---
+
 ## Fitur Utama
 
 | Modul                   | Fitur                                                            |
@@ -20,20 +47,6 @@ Sistem dirancang untuk mengurangi human error, mempercepat proses inspeksi, mend
 | Database                | Penyimpanan histori inspeksi dan audit trail menggunakan MySQL   |
 | Dashboard Monitoring    | Monitoring KPI dan alerting menggunakan Grafana Cloud            |
 | Real-Time Communication | MQTT dan REST API                                                |
-
----
-
-## Latar Belakang
-
-Pada proses manufaktur, inspeksi kuantitas part masih sering dilakukan secara manual. Metode ini memiliki beberapa kelemahan:
-
-* Rentan terhadap human error.
-* Membutuhkan waktu inspeksi yang lama.
-* Sulit melakukan audit dan traceability.
-* Tidak tersedia monitoring secara real-time.
-* Berpotensi merusak kemasan saat proses pengecekan.
-
-Part Counting Station dikembangkan untuk mengatasi permasalahan tersebut melalui pendekatan otomatis berbasis Computer Vision dan Sensor Fusion.
 
 ---
 
@@ -81,7 +94,7 @@ Alur sistem:
 | Dashboard          | Grafana Cloud                           |
 | Edge Device        | Raspberry Pi 5                          |
 | Kamera             | Camera Module 3                         |
-| Sensor Berat       | Load Cell + HX711                       |                             |
+| Sensor Berat       | Load Cell + HX711                       |                             
 | Development Tools  | Google Colab, Jupyter Notebook, VS Code |
 
 ---
@@ -310,7 +323,7 @@ part-counting-station/
 
 | Nama                             | Peran                                         |
 | -------------------------------- | --------------------------------------------- |
-| Stephanie Gabriella Wijaya       | Business Process Analyst & Dashboard Engineer |
+| Stephanie Gabriella Wijaya       | Business Process Analyst                      |
 | Maulana Aryan Wicaksana Sabandar | AI/ML Engineer                                |
 | Nadhif Rif'at Rasendriya         | Computer Vision Engineer                      |
 | Zaka Aulia Nala Udhma            | Hardware Engineer                             |
