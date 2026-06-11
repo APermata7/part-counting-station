@@ -22,7 +22,12 @@ Part Counting Station dikembangkan untuk mengatasi permasalahan tersebut melalui
 
 ---
 
-## Gambar Sistem
+## Dokumentasi & Gambar Sistem
+
+### Video Demo
+
+Tonton video demonstrasi operasional sistem secara langsung melalui tautan berikut: 
+👉 **[clips.id/EpsonA4-VideoDemo](https://clips.id/EpsonA4-VideoDemo)**
 
 ### Dashboard Monitoring KPI
 
